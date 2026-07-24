@@ -1,0 +1,51 @@
+id,date,amount,merchant,category,hasReceipt,approvedBy,employee,department,description
+tx001,2026-02-03,189,Marriott Downtown Austin,lodging,true,,ava.chen,ops,2-night stay split shown as nightly avg
+tx002,2026-02-03,275,Hilton Midtown,lodging,true,,ava.chen,ops,Single night NYC
+tx003,2026-02-03,310,The Langham Chicago,lodging,true,vp.ops@northwind.io,ava.chen,ops,Client summit room
+tx004,2026-02-04,22.5,Lyft,rideshare,false,,jordan.lee,sales,Airport pickup
+tx005,2026-02-04,41.2,Uber,rideshare,false,,jordan.lee,sales,Late client dropoff
+tx006,2026-02-04,38.0,Uber,rideshare,true,,sam.ortiz,marketing,HQ to venue
+tx007,2026-02-05,55.0,Yellow Cab Co,ground_transport,false,,sam.ortiz,marketing,Taxi from station
+tx008,2026-02-05,1200,SaaStr Annual,conference,false,,priya.nair,product,Pass only
+tx009,2026-02-05,1200,SaaStr Annual,conference,true,,priya.nair,product,Pass with receipt upload
+tx010,2026-02-06,890,Local Meetup Hall,conference,true,,priya.nair,product,Regional day pass
+tx011,2026-02-06,820,Framework Laptop Store,hardware,true,,diego.ramos,engineering,Laptop accessory bundle
+tx012,2026-02-06,820,Framework Laptop Store,hardware,true,eng.manager@northwind.io,diego.ramos,engineering,Approved refresh
+tx013,2026-02-07,199,Keychron,hardware,true,,diego.ramos,engineering,Keyboard
+tx014,2026-02-07,64.99,Verizon Wireless,telecom,false,,mina.park,support,Hotspot month
+tx015,2026-02-07,64.99,Verizon Wireless,telecom,true,,mina.park,support,Hotspot month receipted
+tx016,2026-02-08,45,Coursera,training,true,,mina.park,support,Async course
+tx017,2026-02-08,499,O'Reilly Learning,training,false,,chris.nguyen,engineering,Annual seat
+tx018,2026-02-08,499,O'Reilly Learning,training,true,eng.manager@northwind.io,chris.nguyen,engineering,Approved seat
+tx019,2026-02-09,75,Etsy Seller Gifts,gifts,true,,jordan.lee,sales,Client thank-you box
+tx020,2026-02-09,28,Amazon,gifts,false,,jordan.lee,sales,Swag pens
+tx021,2026-02-10,12,City Parking Garage,parking,false,,ava.chen,ops,Downtown meter day
+tx022,2026-02-10,36,Airport Long-Term Lot,parking,false,,ava.chen,ops,Travel week
+tx023,2026-02-10,36,Airport Long-Term Lot,parking,true,,ava.chen,ops,Travel week receipted
+tx024,2026-02-11,240,Hyatt Place Denver,lodging,true,,sam.ortiz,marketing,Under threshold
+tx025,2026-02-11,265,Hyatt Regency Denver,lodging,false,,sam.ortiz,marketing,Over threshold no approver
+tx026,2026-02-12,19.4,Lyft,rideshare,false,,chris.nguyen,engineering,Short hop
+tx027,2026-02-12,52.8,Uber XL,rideshare,true,,chris.nguyen,engineering,Team ride over cap
+tx028,2026-02-13,1500,KubeCon NA,conference,true,vp.eng@northwind.io,diego.ramos,engineering,Full pass approved
+tx029,2026-02-13,1500,KubeCon NA,conference,true,,diego.ramos,engineering,Missing approver path
+tx030,2026-02-14,999,Apple Store,hardware,true,,priya.nair,product,Display unit
+tx031,2026-02-14,999,Apple Store,hardware,true,product.lead@northwind.io,priya.nair,product,Approved display
+tx032,2026-02-15,89,AT&T Business,telecom,true,,mina.park,support,Device protection
+tx033,2026-02-16,220,Pluralsight,training,true,,chris.nguyen,engineering,Team plan add-on
+tx034,2026-02-17,15,Flower Co,gifts,true,,sam.ortiz,marketing,Desk flowers
+tx035,2026-02-18,8.5,ParkMobile,parking,false,,jordan.lee,sales,Client visit
+tx036,2026-02-19,44,ParkWhiz,parking,true,,jordan.lee,sales,Garage overnight
+tx037,2026-02-20,255,Westin Seattle,lodging,true,vp.ops@northwind.io,ava.chen,ops,Approved overage
+tx038,2026-02-21,33,Lyft,rideshare,false,,ava.chen,ops,Under rideshare cap
+tx039,2026-02-22,1100,AI Engineer Summit,conference,false,vp.eng@northwind.io,diego.ramos,engineering,Has approver missing receipt
+tx040,2026-02-23,760,Lenovo Pro,hardware,false,eng.manager@northwind.io,chris.nguyen,engineering,Approved but no receipt
+tx041,2026-02-24,12.25,Uber,rideshare,false,,priya.nair,product,Last mile
+tx042,2026-02-25,70,Enterprise Rent-A-Car,ground_transport,true,,priya.nair,product,Day car
+tx043,2026-02-26,48,Enterprise Rent-A-Car,ground_transport,false,,priya.nair,product,Half day
+tx044,2026-02-27,180,Skillsoft,training,true,,mina.park,support,Compliance modules
+tx045,2026-02-28,60,Best Buy,gifts,true,sales.lead@northwind.io,jordan.lee,sales,Still a gift
+tx046,2026-03-01,29.5,Airport Short-Term,parking,false,,sam.ortiz,marketing,Pickup window
+tx047,2026-03-02,31,Airport Short-Term,parking,false,,sam.ortiz,marketing,Just over parking receipt rule
+tx048,2026-03-03,248,Residence Inn,lodging,true,,ava.chen,ops,Borderline under 250
+tx049,2026-03-04,251,Residence Inn Suites,lodging,true,,ava.chen,ops,One dollar over lodging rule
+tx050,2026-03-05,40,Uber,rideshare,false,,diego.ramos,engineering,Exactly at rideshare cap
