@@ -1,7 +1,21 @@
+import { checkRateLimit } from "@vercel/firewall";
 import { compilePolicy } from "@cashew/lib/llm/compilePolicy";
 import { NextResponse } from "next/server";
 
+/** Must match the Rate limit ID on the Vercel Firewall rule. */
+const COMPILE_RATE_LIMIT_ID = "compile-policy";
+
 export async function POST(request: Request) {
+  const { rateLimited } = await checkRateLimit(COMPILE_RATE_LIMIT_ID, {
+    request,
+  });
+  if (rateLimited) {
+    return NextResponse.json(
+      { error: "Too many compile requests. Try again in a minute." },
+      { status: 429 },
+    );
+  }
+
   try {
     const body = await request.json();
     const policy = String(body.policy ?? "").trim();

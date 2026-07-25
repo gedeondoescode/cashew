@@ -4,7 +4,15 @@ Set rules and policies around corporate spending.
 
 ## Getting Started
 
-First, run the development server:
+First, create `.env` at the root of the project then add your gemini API key like so:
+
+```env
+GEMINI_API_KEY="YOURAPIKEYHERE"
+```
+
+You can get a free key from [Google AI Studio](https://aistudio.google.com/).
+
+Second, run the development server:
 
 ```bash
 pnpm dev
